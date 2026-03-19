@@ -1,4 +1,5 @@
 import { query, mutation, internalMutation } from "./_generated/server";
+// Note: mutation is used for 'remove' (public), internalMutation for 'store' and 'removeByKey'
 import { v } from "convex/values";
 
 export const get = query({

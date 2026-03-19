@@ -9,9 +9,9 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
-    "./convex.config": "./src/component/convex.config.ts",
     "./convex.config.js": "./src/component/convex.config.ts",
-    "./_generated/component": "./src/component/_generated/component.ts"
+    "./_generated/component": "./src/component/_generated/component.ts",
+    "./_generated/component.js": "./src/component/_generated/component.ts"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
