@@ -1,6 +1,6 @@
 {
   "name": "convex-bunny",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convex component for file storage and CDN delivery with Bunny.net",
   "license": "MIT",
   "type": "module",
