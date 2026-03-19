@@ -1,0 +1,7 @@
+example/
+.github/
+.gitignore
+.npmignore
+tsconfig.json
+tsconfig.build.json
+convex.json

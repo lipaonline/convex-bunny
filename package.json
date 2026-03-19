@@ -1,0 +1,45 @@
+{
+  "name": "convex-bunny",
+  "version": "0.1.0",
+  "description": "Convex component for file storage and CDN delivery with Bunny.net",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./convex.config": "./src/component/convex.config.ts"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "convex": "^1.17.0"
+  },
+  "devDependencies": {
+    "convex": "^1.17.0",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "convex",
+    "component",
+    "bunny",
+    "bunnycdn",
+    "storage",
+    "cdn",
+    "file-upload"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipaonline/convex-bunny"
+  }
+}
