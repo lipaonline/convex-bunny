@@ -85,21 +85,6 @@ export type ComponentApi<Name extends string | undefined = string | undefined> =
         null,
         Name
       >;
-      store: FunctionReference<
-        "mutation",
-        "internal",
-        {
-          cdnUrl: string;
-          contentType?: string;
-          fileName: string;
-          key: string;
-          metadata?: any;
-          size?: number;
-          storageZone: string;
-        },
-        string,
-        Name
-      >;
     };
     storage: {
       deleteObject: FunctionReference<

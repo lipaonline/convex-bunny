@@ -86,7 +86,7 @@ export const list = query({
   },
 });
 
-export const store = mutation({
+export const store = internalMutation({
   args: {
     key: v.string(),
     storageZone: v.string(),
